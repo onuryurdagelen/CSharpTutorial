@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetotParametreleri", "Metot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeriyeVeriDondurenMethodlar", "GeriyeVeriDondurenMethodlar\GeriyeVeriDondurenMethodlar.csproj", "{2FAD3905-AD5D-4921-B3AA-CD2541DFBDD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPhoneMethodExample", "CheckPhoneMethodExample\CheckPhoneMethodExample.csproj", "{B938187C-8487-4969-9AC9-D74698211B1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckPhoneMethodExample", "CheckPhoneMethodExample\CheckPhoneMethodExample.csproj", "{B938187C-8487-4969-9AC9-D74698211B1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefKeyword", "RefKeyword\RefKeyword.csproj", "{164383FD-1BC8-44F2-A371-E149B78481AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefKeyword", "RefKeyword\RefKeyword.csproj", "{4585B4F0-A238-4C2D-8B40-E7EEE694DA39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "outKeyword", "outKeyword\outKeyword.csproj", "{99DD7595-28A0-4E23-8DB5-8069EB29AEB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsKeyword", "ParamsKeyword\ParamsKeyword.csproj", "{618361BB-7980-4C3E-BA58-7B018B19E803}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +51,18 @@ Global
 		{B938187C-8487-4969-9AC9-D74698211B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B938187C-8487-4969-9AC9-D74698211B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B938187C-8487-4969-9AC9-D74698211B1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{164383FD-1BC8-44F2-A371-E149B78481AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{164383FD-1BC8-44F2-A371-E149B78481AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{164383FD-1BC8-44F2-A371-E149B78481AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{164383FD-1BC8-44F2-A371-E149B78481AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4585B4F0-A238-4C2D-8B40-E7EEE694DA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4585B4F0-A238-4C2D-8B40-E7EEE694DA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4585B4F0-A238-4C2D-8B40-E7EEE694DA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4585B4F0-A238-4C2D-8B40-E7EEE694DA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DD7595-28A0-4E23-8DB5-8069EB29AEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DD7595-28A0-4E23-8DB5-8069EB29AEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DD7595-28A0-4E23-8DB5-8069EB29AEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DD7595-28A0-4E23-8DB5-8069EB29AEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618361BB-7980-4C3E-BA58-7B018B19E803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618361BB-7980-4C3E-BA58-7B018B19E803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618361BB-7980-4C3E-BA58-7B018B19E803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618361BB-7980-4C3E-BA58-7B018B19E803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
