@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPGiris", "OOPGiris\OOPGiris.csproj", "{54CD6C46-6B77-4A26-B407-7CDE6EF6786E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPGiris", "OOPGiris\OOPGiris.csproj", "{54CD6C46-6B77-4A26-B407-7CDE6EF6786E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPFormOrnegi", "OOPFormOrnegi\OOPFormOrnegi.csproj", "{25345B0B-3556-4C4E-977F-2C28BC8C22C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPFormOrnegi", "OOPFormOrnegi\OOPFormOrnegi.csproj", "{25345B0B-3556-4C4E-977F-2C28BC8C22C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{E033AD2A-6FB8-443E-8501-BF45B319AAEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetotParametreleri", "MetotParametreleri\MetotParametreleri.csproj", "{E2018760-B7AA-4744-8BC6-BF789ABD560D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeriyeVeriDondurenMethodlar", "GeriyeVeriDondurenMethodlar\GeriyeVeriDondurenMethodlar.csproj", "{2FAD3905-AD5D-4921-B3AA-CD2541DFBDD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPhoneMethodExample", "CheckPhoneMethodExample\CheckPhoneMethodExample.csproj", "{B938187C-8487-4969-9AC9-D74698211B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefKeyword", "RefKeyword\RefKeyword.csproj", "{164383FD-1BC8-44F2-A371-E149B78481AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{25345B0B-3556-4C4E-977F-2C28BC8C22C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25345B0B-3556-4C4E-977F-2C28BC8C22C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25345B0B-3556-4C4E-977F-2C28BC8C22C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E033AD2A-6FB8-443E-8501-BF45B319AAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E033AD2A-6FB8-443E-8501-BF45B319AAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E033AD2A-6FB8-443E-8501-BF45B319AAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E033AD2A-6FB8-443E-8501-BF45B319AAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2018760-B7AA-4744-8BC6-BF789ABD560D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2018760-B7AA-4744-8BC6-BF789ABD560D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2018760-B7AA-4744-8BC6-BF789ABD560D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2018760-B7AA-4744-8BC6-BF789ABD560D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAD3905-AD5D-4921-B3AA-CD2541DFBDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAD3905-AD5D-4921-B3AA-CD2541DFBDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAD3905-AD5D-4921-B3AA-CD2541DFBDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAD3905-AD5D-4921-B3AA-CD2541DFBDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B938187C-8487-4969-9AC9-D74698211B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B938187C-8487-4969-9AC9-D74698211B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B938187C-8487-4969-9AC9-D74698211B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B938187C-8487-4969-9AC9-D74698211B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164383FD-1BC8-44F2-A371-E149B78481AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164383FD-1BC8-44F2-A371-E149B78481AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164383FD-1BC8-44F2-A371-E149B78481AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164383FD-1BC8-44F2-A371-E149B78481AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
