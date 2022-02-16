@@ -40,7 +40,8 @@ namespace KurtAdamSaldirisiOrnek
         Account account = new Account();
 
         public void setAccount()
-        { 
+        {
+
             account.userName = txtUsername.Text;
             account.weapon = txtWeapon.Text;
             account.ethnicity = cmbEthnicity.GetItemText(cmbEthnicity.SelectedItem);
@@ -58,7 +59,7 @@ namespace KurtAdamSaldirisiOrnek
         }
         private void btnAttack_Click(object sender, EventArgs e)
         {
-            //Account account = new Account();
+            //Account account = new Account
             account.Attack();
             lblHealth.Width -= account.damage;
             MessageBox.Show($"Dusmana {account.damage} hasar verildi.");
