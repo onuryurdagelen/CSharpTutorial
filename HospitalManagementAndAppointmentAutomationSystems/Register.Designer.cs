@@ -38,10 +38,14 @@ namespace HospitalManagementAndAppointmentAutomationSystems
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.txtIdentity = new System.Windows.Forms.MaskedTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnRedirectLogin = new System.Windows.Forms.Button();
+            this.lblFirstName = new System.Windows.Forms.Label();
+            this.lblLastname = new System.Windows.Forms.Label();
+            this.lblIdentity = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +54,7 @@ namespace HospitalManagementAndAppointmentAutomationSystems
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(19, 20);
-            this.panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(663, 140);
             this.panel1.TabIndex = 1;
@@ -69,7 +73,7 @@ namespace HospitalManagementAndAppointmentAutomationSystems
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 181);
+            this.label2.Location = new System.Drawing.Point(36, 185);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 25);
@@ -79,7 +83,7 @@ namespace HospitalManagementAndAppointmentAutomationSystems
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 239);
+            this.label3.Location = new System.Drawing.Point(36, 251);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 25);
@@ -90,7 +94,7 @@ namespace HospitalManagementAndAppointmentAutomationSystems
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(58, 284);
+            this.label4.Location = new System.Drawing.Point(58, 319);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 25);
@@ -101,7 +105,7 @@ namespace HospitalManagementAndAppointmentAutomationSystems
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(42, 336);
+            this.label5.Location = new System.Drawing.Point(36, 398);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(95, 25);
@@ -117,33 +121,33 @@ namespace HospitalManagementAndAppointmentAutomationSystems
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(150, 236);
+            this.txtLastName.Location = new System.Drawing.Point(153, 248);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(238, 33);
             this.txtLastName.TabIndex = 7;
             // 
             // txtIdentity
             // 
-            this.txtIdentity.Location = new System.Drawing.Point(150, 281);
+            this.txtIdentity.Location = new System.Drawing.Point(153, 319);
             this.txtIdentity.Mask = "00000000000";
             this.txtIdentity.Name = "txtIdentity";
             this.txtIdentity.Size = new System.Drawing.Size(238, 33);
             this.txtIdentity.TabIndex = 10;
             this.txtIdentity.ValidatingType = typeof(int);
             // 
-            // button1
+            // btnRegister
             // 
-            this.button1.Location = new System.Drawing.Point(196, 396);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 45);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnRegister.Location = new System.Drawing.Point(184, 470);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(137, 45);
+            this.btnRegister.TabIndex = 12;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(150, 336);
+            this.txtPassword.Location = new System.Drawing.Point(150, 395);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(238, 33);
             this.txtPassword.TabIndex = 13;
@@ -168,15 +172,63 @@ namespace HospitalManagementAndAppointmentAutomationSystems
             this.btnRedirectLogin.UseVisualStyleBackColor = true;
             this.btnRedirectLogin.Click += new System.EventHandler(this.btnRedirectLogin_Click);
             // 
+            // lblFirstName
+            // 
+            this.lblFirstName.AutoSize = true;
+            this.lblFirstName.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblFirstName.ForeColor = System.Drawing.Color.Red;
+            this.lblFirstName.Location = new System.Drawing.Point(36, 221);
+            this.lblFirstName.Name = "lblFirstName";
+            this.lblFirstName.Size = new System.Drawing.Size(0, 13);
+            this.lblFirstName.TabIndex = 16;
+            this.lblFirstName.Visible = false;
+            // 
+            // lblLastname
+            // 
+            this.lblLastname.AutoSize = true;
+            this.lblLastname.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblLastname.ForeColor = System.Drawing.Color.Red;
+            this.lblLastname.Location = new System.Drawing.Point(36, 295);
+            this.lblLastname.Name = "lblLastname";
+            this.lblLastname.Size = new System.Drawing.Size(0, 13);
+            this.lblLastname.TabIndex = 17;
+            this.lblLastname.Visible = false;
+            // 
+            // lblIdentity
+            // 
+            this.lblIdentity.AutoSize = true;
+            this.lblIdentity.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblIdentity.ForeColor = System.Drawing.Color.Red;
+            this.lblIdentity.Location = new System.Drawing.Point(36, 366);
+            this.lblIdentity.Name = "lblIdentity";
+            this.lblIdentity.Size = new System.Drawing.Size(0, 13);
+            this.lblIdentity.TabIndex = 18;
+            this.lblIdentity.Visible = false;
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPassword.ForeColor = System.Drawing.Color.Red;
+            this.lblPassword.Location = new System.Drawing.Point(36, 442);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(0, 13);
+            this.lblPassword.TabIndex = 19;
+            this.lblPassword.Visible = false;
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(707, 478);
+            this.ClientSize = new System.Drawing.Size(715, 582);
+            this.Controls.Add(this.lblPassword);
+            this.Controls.Add(this.lblIdentity);
+            this.Controls.Add(this.lblLastname);
+            this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.btnRedirectLogin);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.txtIdentity);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.txtFirstName);
@@ -186,7 +238,7 @@ namespace HospitalManagementAndAppointmentAutomationSystems
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Register";
             this.Text = "Register";
             this.Load += new System.EventHandler(this.Register_Load);
@@ -212,5 +264,10 @@ namespace HospitalManagementAndAppointmentAutomationSystems
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnRedirectLogin;
+        private System.Windows.Forms.Label lblFirstName;
+        private System.Windows.Forms.Label lblLastname;
+        private System.Windows.Forms.Label lblIdentity;
+        private System.Windows.Forms.Label lblPassword;
+        private System.Windows.Forms.Button btnRegister;
     }
 }

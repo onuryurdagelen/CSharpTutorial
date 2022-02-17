@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HospitalManagementAndAppointmentAutomationSystems.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,11 +12,28 @@ namespace HospitalManagementAndAppointmentAutomationSystems
     public partial class Register : Form
     {
         Form1 login;
+        
         public Register()
         {
             InitializeComponent();
         }
+        void setLabelsUnvisible()
+        {
+            lblFirstName.Visible = true;
+            lblLastname.Visible = true;
+            lblIdentity.Visible = true;
+            lblPassword.Visible = true;
+        }
+        void setLabelValues(string firstMsg,string lastMsg,string IdMsg,string passMsg)
+        {
+            setLabelsUnvisible();
 
+            lblFirstName.Text = firstMsg;
+            lblLastname.Text = lastMsg;
+            lblIdentity.Text = IdMsg;
+            lblPassword.Text = passMsg;
+
+        }
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -25,9 +43,19 @@ namespace HospitalManagementAndAppointmentAutomationSystems
         {
 
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
+            User user;
+            user = new User();
+            user.firstName = txtFirstName.Text;
+            user.lastName = txtLastName.Text;
+            user.Identity = txtIdentity.Text;
+            user.password = txtPassword.Text;
+
+            setLabelValues(user.frstMsg,user.lstMsg,user.IdMsg,user.passMsg);
+
+
 
         }
 
