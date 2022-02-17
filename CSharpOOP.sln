@@ -29,13 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "AccessMo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtherProject", "OtherProject\OtherProject.csproj", "{3244E58D-D171-4F99-8419-23F023860C8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{B5EF0350-6CC6-4EE8-8A8A-B1B964A9CE5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\Constructor.csproj", "{B5EF0350-6CC6-4EE8-8A8A-B1B964A9CE5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorLoginOrnegi", "ConstructorLoginOrnegi\ConstructorLoginOrnegi.csproj", "{F38ED2C9-4CD8-474F-91D6-261273982744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorLoginOrnegi", "ConstructorLoginOrnegi\ConstructorLoginOrnegi.csproj", "{F38ED2C9-4CD8-474F-91D6-261273982744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagementAndAppointmentAutomationSystems", "HospitalManagementAndAppointmentAutomationSystems\HospitalManagementAndAppointmentAutomationSystems.csproj", "{CB042ED6-ACC9-400A-8F39-1B8EF6FE57AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalManagementAndAppointmentAutomationSystems", "HospitalManagementAndAppointmentAutomationSystems\HospitalManagementAndAppointmentAutomationSystems.csproj", "{CB042ED6-ACC9-400A-8F39-1B8EF6FE57AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightTicketReservationSystem", "FlightTicketReservationSystem\FlightTicketReservationSystem.csproj", "{82F4FC9D-90A2-4DFF-AFBF-DD75BB44EC20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightTicketReservationSystem", "FlightTicketReservationSystem\FlightTicketReservationSystem.csproj", "{82F4FC9D-90A2-4DFF-AFBF-DD75BB44EC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListFeatures", "ArrayList\ArrayListFeatures.csproj", "{262FCAB2-3FFD-42A3-80BA-0F520406F33D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{82F4FC9D-90A2-4DFF-AFBF-DD75BB44EC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82F4FC9D-90A2-4DFF-AFBF-DD75BB44EC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82F4FC9D-90A2-4DFF-AFBF-DD75BB44EC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262FCAB2-3FFD-42A3-80BA-0F520406F33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262FCAB2-3FFD-42A3-80BA-0F520406F33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262FCAB2-3FFD-42A3-80BA-0F520406F33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262FCAB2-3FFD-42A3-80BA-0F520406F33D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
